@@ -67,6 +67,12 @@ npm run dev
 ## 👨‍💻 Author
 **Siddhesh Umesh Sarang**
 
+## Future Updates
+- Additon For Single Player Feature (with bots as opponents)
+- Custom Nameable players instead of just X and O
+- Improvement Of Graphical Content
+- & Many More...
+
 ## 📜 License
 This project is licensed under the **MIT License**.
 
