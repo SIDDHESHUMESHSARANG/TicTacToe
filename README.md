@@ -64,9 +64,6 @@ npm run dev
 - 📝 JavaScript (ES6+)
 - ☁️ Vercel (for deployment)
 
-## 🖼 Game Preview
-_Add a screenshot or GIF of the game here._
-
 ## 👨‍💻 Author
 **Siddhesh Umesh Sarang**
 
