@@ -31,24 +31,8 @@ npm run dev
 ```
 
 ## 🌍 Deployment on Vercel
-### Deploying manually:
-1. Install Vercel CLI:
-   ```sh
-   npm install -g vercel
-   ```
-2. Login to Vercel:
-   ```sh
-   vercel login
-   ```
-3. Deploy the project:
-   ```sh
-   vercel
-   ```
-
-### Automatic Deployment:
-- Push your changes to GitHub.
-- Connect your repository to Vercel.
-- Vercel will automatically build and deploy your project.
+- This Game Is Deployed At 
+```tictactoe8.vercel.app
 
 ## 🎲 How to Play
 - The game starts with **X**.
