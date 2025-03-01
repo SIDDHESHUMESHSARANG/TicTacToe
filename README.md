@@ -1,50 +1,75 @@
-# React + TypeScript + Vite
+# Tic Tac Toe - React Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple Tic Tac Toe game built with React and hosted on Vercel.
 
-Currently, two official plugins are available:
+## Features
+- 🎮 Playable Tic Tac Toe game with X and O turns.
+- 📊 Keeps track of player scores.
+- 🏆 Displays winner or tie message.
+- 🔄 Automatically resets after a short delay when a round is complete.
+- 🎨 Interactive UI with hover effects.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## 🚀 Installation
+### Clone the repository:
+```sh
+git clone https://github.com/SIDDHESHUMESHSARANG/TicTacToe.git
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+### Navigate to the project folder:
+```sh
+cd TicTacToe
 ```
+
+### Install dependencies:
+```sh
+npm install
+```
+
+### Start the development server:
+```sh
+npm run dev
+```
+
+## 🌍 Deployment on Vercel
+### Deploying manually:
+1. Install Vercel CLI:
+   ```sh
+   npm install -g vercel
+   ```
+2. Login to Vercel:
+   ```sh
+   vercel login
+   ```
+3. Deploy the project:
+   ```sh
+   vercel
+   ```
+
+### Automatic Deployment:
+- Push your changes to GitHub.
+- Connect your repository to Vercel.
+- Vercel will automatically build and deploy your project.
+
+## 🎲 How to Play
+- The game starts with **X**.
+- Click on an empty cell to place your mark.
+- The turn switches after each valid move.
+- The game checks for a winner or a tie after each move.
+- If a player wins, their score increases.
+- The board resets automatically after a short delay after a win or tie.
+
+## 🛠 Technologies Used
+- ⚛️ React.js
+- 🎨 HTML & CSS
+- 📝 JavaScript (ES6+)
+- ☁️ Vercel (for deployment)
+
+## 🖼 Game Preview
+_Add a screenshot or GIF of the game here._
+
+## 👨‍💻 Author
+**Siddhesh Umesh Sarang**
+
+## 📜 License
+This project is licensed under the **MIT License**.
+
