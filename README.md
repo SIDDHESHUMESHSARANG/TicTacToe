@@ -31,8 +31,8 @@ npm run dev
 ```
 
 ## 🌍 Deployment on Vercel
-- This Game Is Deployed At 
-![tictactoe8.vercel.app(tictactoe8.vercel.app) 
+- This Game Is Deployed At
+[tictactoe8.vercel.app](tictactoe8.vercel.app)
 
 ## 🎲 How to Play
 - The game starts with **X**.
